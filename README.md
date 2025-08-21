@@ -1,6 +1,6 @@
 📋 Pacman Game
 
-Classic arcade-style Pacman game with ghosts, power-ups, and maze navigation.
+Classic arcade-style Pacman game with ghosts and maze navigation.
 
 🚀 Features
 
