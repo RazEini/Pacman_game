@@ -1,23 +1,54 @@
-📋 Pacman Game
+# 📋 משחק Pacman קלאסי
 
-Classic arcade-style Pacman game with ghosts and maze navigation.
+גרסה קלאסית של המשחק האטרקטיבי **Pacman**, עם שדים (Ghosts) ומבוך חכם.  
+המטרה: לנווט את Pacman לאורך המבוך, לאסוף נקודות ולהימנע מהשדים.
 
-🚀 Features
+---
 
-Navigate Pacman through a maze collecting points
+## 🚀 תכונות עיקריות
 
-Multiple ghost enemies with semi-intelligent movement
+- **ניווט במבוך:** שליטה על Pacman דרך מסלולי המבוך.
+- **שדים חצי־אינטליגנטיים:** מספר אויבים עם תנועות שמאתגרות את השחקן.
+- **מנהרות טלפורט:** מעבר מהיר בצדדים האופקיים או האנכיים של המסך.
+- **זיהוי התנגשויות:** זיהוי פגיעה בקירות או בשדים שמשפיע על החיים שלך.
+- **מערכת ניקוד וחיים:** מעקב אחרי הנקודות שנאספו ומספר החיים שנותרו.
+- **אנימציות חלקות:** תנועות חלקות של Pacman והשדים להרגשה של משחק קלאסי.
+- **רמות קושי (אפשרי להרחבה):** ניתן להגדיל את המהירות או את מספר השדים.
 
-Teleport tunnels for horizontal and vertical movement
+---
 
-Collision detection with walls and ghosts
+## 🛠️ טכנולוגיות
 
-Score tracking and lives system
+- **JavaScript** – לוגיקה של המשחק
+- **HTML5 Canvas** – הצגת המבוך, Pacman והשדים
+- **ES6 Modules** – ארגון קוד מודולרי ונקי
 
-Smooth animations for Pacman and ghosts
+---
 
-🛠️ Tech Stack
+## 🎮 הוראות הפעלה
 
-JavaScript (main) • HTML5 (canvas for rendering) • ES6 modules
+1. הורד או שיכפל את המאגר.
+2. פתח את הקובץ `index.html` בדפדפן מודרני (Chrome, Firefox, Edge).
+3. שלוט ב־Pacman באמצעות **חיצי המקלדת**:
+   - ⬆️ למעלה  
+   - ⬇️ למטה  
+   - ⬅️ שמאלה  
+   - ➡️ ימינה
 
-👨‍💻 Raz Eini (2025)
+---
+
+## 💡 טיפים לשחק
+
+- אסוף את כל הנקודות כדי לעבור לרמה הבאה.
+- היזהר מהשדים – אם הם יגעו בך, תאבד חיים.
+- השתמש במנהרות כדי להימלט משדים במהירות.
+- עקוב אחרי השדים – חלקם נעים בחוכמה ויש להימנע מהם מראש.
+
+---
+
+## 👨‍💻 מחבר
+
+**Raz Eini (2025)** – יוצר הפרויקט והקוד.
+
+---
+
